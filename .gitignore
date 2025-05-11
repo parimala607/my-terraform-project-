@@ -1,0 +1,26 @@
+# Terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log
+crash.log
+
+# Override and auto-generated variable files (optional)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive variable files (untracked in your project, but ignore just in case)
+*.tfvars
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+
