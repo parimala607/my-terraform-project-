@@ -8,8 +8,7 @@
 # Crash logs
 crash.log
 
-# Sensitive variable files
-*.tfvars
+
 
 # Override files
 *.override.tf
