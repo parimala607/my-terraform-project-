@@ -1,15 +1,19 @@
 variable "region" {
-  default = "us-east-1"
+  description = "The AWS region to deploy resources in"
+  type        = string
 }
 
 variable "instance_type" {
-  default = "t2.micro"
+  description = "The type of EC2 instance to use"
+  type        = string
 }
+
 variable "cidr" {
   description = "CIDR block for the VPC"
-  default = "10.0.0.0/16"
+  type        = string
 }
 
 variable "ami_id" {
-  default = "ami-0f88e80871fd81e91"
+  description = "AMI ID for EC2 instances"
+  type        = string
 }
