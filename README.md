@@ -40,6 +40,18 @@ This project demonstrates how to use **Terraform** to provision a basic cloud in
  terraform apply
 
 
+## 📸 Screenshots
+
+### ✅ Load Balancer Dashboard
+![Load Balancer](./screenshots/lb-dashboard.png)
+
+### 🌐 Web Content on EC2 Public IP
+![Web Content on EC2](./screenshots/ec2-web-content.png)
+
+### 📤 Terraform CLI Output
+![Terraform Output](./screenshots/terraform-output.png)
+
+
 
  🔐 **Security Notes**:
 
